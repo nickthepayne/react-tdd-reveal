@@ -1,148 +1,136 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>01 Intro | Example Content</title>
+  <title>01 Intro | Example Content</title>
 
-    <link rel="icon" href="../img/zuehlke_logo.jpg">
-    <link rel="stylesheet" href="../css/reveal.css">
-    <link rel="stylesheet" href="../css/theme/zuehlke.css">
+  <link rel="icon" href="../img/zuehlke_logo.jpg">
+  <link rel="stylesheet" href="../css/reveal.css">
+  <link rel="stylesheet" href="../css/theme/zuehlke.css">
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="../lib/css/atom-one-dark.css">
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="../lib/css/atom-one-dark.css">
 
-    <!-- Printing and PDF exports -->
-    <script>
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? '../css/print/pdf.css' : '../css/print/paper.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    </script>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? '../css/print/pdf.css' : '../css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
 </head>
 <body>
 <div class="reveal">
-    <div class="slides">
-        <section class="deck-slide">
-            <h1>Example Content <br />
-            01 Intro</h1>
-        </section>
-        <section>
-            <h2>About us</h2>
-            <div class="column-container">
-                <div class="column-2">
-                    <img src="../img/nipa.jpg" class="portrait">
-                    <h3 class="margin-top">Nick Payne</h3>
-                </div>
-                <div class="column-2">
-                    <img src="../img/nioe.jpg" class="portrait">
-                    <h3 class="margin-top">Nicolas Oeschger</h3>
-                </div>
-            </div>
-                <p>Web developers working for Zühlke since 2013</p>
-        </section>
-        <section>
-            <h2>Schedule</h2>
-            <ul>
-                <li>09:00 Start</li>
-                <li>10:30 - 10:45 Coffee Break</li>
-                <li>12:30 - 13:30 Lunch Break</li>
-                <li>15:00 - 15:15 Coffee Break</li>
-                <li>17:00 End</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Course structure</h2>
-            <ul>
-                <li>Theoretical input</li>
-                <li>Exercises</li>
-                <li>Questions any time</li>
-            </ul>
-            <p>made with <a href="https://revealjs.com/#/">reveal.js</a></p>
-        </section>
-        <section>
-            <h2>JavaScript - WAT?!</h2>
-            <video width="70%" controls>
-                <source src="../img/wat.mp4" type="video/mp4">
-            </video>
-        </section>
-        <section>
-            <section>
-                <h2>What is JavaScript?</h2>
-            </section>
-            <section>
-                <h2>EcmaScript / ES</h2>
-                <p>The scripting language specification which is implemented by <span class="code">JavaScript</span>. It
-                    is standardized by the organization
-                    <span class="code">Ecma International</span>.</p>
-                <p></p>
-            </section>
-            <section>
-                <h2>Ecma TC39 Committee</h2>
-                <p>All new proposals are considered by the Ecma TC39 committee.
-                    They go through the following process before they are included in the Ecma Standard <a target="_blank" href="https://github.com/tc39/proposals">Link 👉🏼</a></p>
-                <ol>
-                    <li>Proposal</li>
-                    <li>Draft</li>
-                    <li>Candidate</li>
-                    <li>Finished</li>
-                </ol>
-            </section>
-            <section>
-                <img src="../img/es-timeline.png" />
-            </section>
-            <section>
-                <h2>Language Characteristics</h2>
-                <ul>
-                    <li>Dynamic</li>
-                    <li>Weakly Typed</li>
-                    <li>"Truly" Object-Oriented</li>
-                    <li>Interpreted (not necessarily compiled)</li>
-                </ul>
-            </section>
-        </section>
-        <section>
-            <section>
-                <h2>How & Where does it run?</h2>
-                <h3>The Browser</h3>
-                <p>The most common use of JavaScript is to add client-side behavior to HTML pages: The browser
-                    interprets and runs the JavaScript code.</p>
-                <p>Demo in the Console.</p>
-            </section>
-            <section>
-                <h2>How & Where does it run?</h2>
-                <h3>NodeJS</h3>
-                <p>JavaScript can also be used on the server-side with NodeJS, which is built on Chrome's V8 Engine.</p>
-            </section>
-        </section>
-        <section class="deck-slide">
-            <h1>Questions?</h1>
-        </section>
-    </div>
+  <div class="slides">
+    <section class="deck-slide">
+      <h1>TDD <br/> <span style="font-size: 45px;">- and why you should be doing it</span></h1>
+    </section>
+    <section>
+      <div>
+        <img src="../img/nipa-emoji.jpeg" class="portrait" style="width: 20% !important">
+        <h3 class="margin-top">Nick Payne</h3>
+      </div>
+      <p>Java & JavaScript developer at Zuhlke since 2013</p>
+      <p>Moved to Singapore in January</p>
+    </section>
+    <section>
+      <section>
+        <h2>TDD</h2>
+        <p>Who uses TDD when writing backend code?</p>
+      </section>
+      <section>
+        <h2>TDD</h2>
+        <p>Who uses TDD when writing frontend code?</p>
+      </section>
+      <section>
+        <h2>What is TDD?</h2>
+        <img src="../img/tdd-cycle.png"/>
+      </section>
+      <section>
+        <h2>What's the benefit of TDD?</h2>
+        <ul>
+          <li>Drive design</li>
+          <li>Frequent and safe refactorings</li>
+          <li>Be confident that your code works</li>
+          <li>Your brain's reward system is continuously pleased!</li>
+        </ul>
+      </section>
+      <section>
+        <h2>TDD needs practice</h2>
+        <p>We want tests that <strong>encourage</strong> us to do refactorings, not <strong>prevent</strong> us from
+          doing so.</p>
+      </section>
+      <section>
+        <h2>TDD !== 100% coverage</h2>
+        <p>Coverage alone is a useless metric</p>
+      </section>
+      <section>
+<pre>
+    <code class="hljs javascript" data-trim contenteditable data-noescape>
+it('should make sonar happy', () => {
+    callThis();
+    callThat();
+    callThis(someParameter);
+});
+    </code>
+</pre>
+      </section>
+      <section>
+        <h2>PLS, have you heard of deadlines? <br /><br /> I have no time for TDD! <br /><br />Everything takes twice as long!</h2>
+      </section>
+      <section>
+        <img src="../img/features-over-time-stagnating.png" />
+      </section>
+      <section>
+        <img src="../img/features-over-time-increasing.png" />
+      </section>
+      <section>
+        <h2>But my <br /><br />Boss / PO / Project Manager / Mom <br /> <br />says I'm not allowed to spend time writing tests!</h2>
+      </section>
+      <section>
+        <p>They are not interested in tests. They are interested in features.</p>
+        <p class="fragment">Testing is a part of your job, include it in your estimations.</p>
+        <p class="fragment">Untested code is legacy code.</p>
+        <p class="fragment">Be a professional. Test your code.</p>
+      </section>
+      <section>
+        <p>If you are making an omelet and it's taking too long to cook, you have three choices:</p>
+        <ul>
+          <li>Eat a half cooked omelet.</li>
+          <li>Wait.</li>
+          <li>Don't have the omelet.</li>
+        </ul>
+      </section>
+      <section>
+        <img src="../img/the-clean-coder-cover.jpg" width="50%"/>
+      </section>
+    </section>
+  </div>
 </div>
 
 <script src="../lib/js/head.min.js"></script>
 <script src="../js/reveal.js"></script>
 
 <script>
-    // More info https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        history: true,
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    history: true,
 
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [
-            { src: '../plugin/markdown/marked.js' },
-            { src: '../plugin/markdown/markdown.js' },
-            { src: '../plugin/notes/notes.js', async: true },
-            {
-                src: '../plugin/highlight/highlight.js', async: true, callback: function () {
-                hljs.initHighlightingOnLoad();
-            }
-            }
-        ]
-    });
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      { src: '../plugin/markdown/marked.js' },
+      { src: '../plugin/markdown/markdown.js' },
+      { src: '../plugin/notes/notes.js', async: true },
+      {
+        src: '../plugin/highlight/highlight.js', async: true, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ]
+  });
 </script>
 </body>
 </html>
