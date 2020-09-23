@@ -3,7 +3,7 @@
 # Preparation
 
 - Start presentation
-- Have Editor ready
+- Have Editor ready (disable prettier?)
 - Start application
 
 # Talk
@@ -62,6 +62,8 @@ Mention Storyboard
 ### Goal
 
 Show application "react-tdd-code"
+
+Changes: show titles
 
 ### What's the first, simplest test case?
 
