@@ -3,10 +3,8 @@
 # Preparation
 
 - Start presentation
-- Checkout "react-tdd-code", branch "rtl-start"
--
-
-- Disable prettier
+- Have Editor ready
+- Start application
 
 # Talk
 
@@ -40,38 +38,47 @@ Smaller pieces
 Less debugging
 Refactor with confidence
 
+-> change silde to:
+
+Your brain's reward system is continuously pleased!
+  Short feedback cycle
+  Smaller pieces
+
+Clean code that works
+  Refactor with confidence
+
+Drive design
+
+Stops writing what we dont need
+Less debugging
+
+
 ## Testing React
 
-- Storyboard?
+Mention Storyboard
 
 ## Hands On
 
 ### Goal
 
-Show application
+Show application "react-tdd-code"
 
-### Get list of test cases
+### What's the first, simplest test case?
 
-Show goal "react-tdd-code", branch "re"
-Write down test cases:
+### Start coding
 
-- Displays "Cart is empty"
-- Contains Tomato
-- Contains Tomato Button
-- When button is clicked > Tomato is added
-- When tomato is added > does no longer show "cart is empty"
-- Contains Apple
-- ...
-- Contains Oranges
-- ...
+Challenges:
+- how fine grainded?
+- when to extract components?
+- 
 
-### 
-
-follow commits in react-tdd-code > talk-09-2020
+## Discussion
 
 ## But wait, what about Redux
 
-Redux example
+Redux examples:
+- connected 
+- container component
 
 ## Impact on your work
 
@@ -109,5 +116,3 @@ Well...
   - having a test suite of the stuff you are woking on now is cumbersome
 - Frequent and safe refactorings
  - still needs discipline
-
-No
