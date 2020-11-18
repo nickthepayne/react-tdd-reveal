@@ -2,17 +2,22 @@
 
 # Preparation
 
-- Start presentation
-- Have Editor ready (disable prettier?)
+- Start presentation (both)
+- Have Editor ready (enable prettier/autosave/jest extension)
 - Start application
+- Have empty CRA ready: `npx create-react-app tdd-b --template typescript`
+- Before we start: it's important to always know whether you are in the green or in the red. To visualize I wrote a reporter using my Phillips Hue lamps. Add this to package.json:
+- `    "test.hue": "react-scripts test --reporters='default' --reporters='../../hue-reporter/hue-reporter.js'",`
 
 # Talk
 
-## Introduction to TDD
+## Introduction to TDD (Nick)
 
-- Slides
+Slides:
+- Chapter 1: TDD (Christian)
+- Chapter 2: Testing React (Nick)
 
-Changes:
+Changes / comments to the slides:
 
 ### What is TDD?
 
@@ -22,8 +27,7 @@ Mention the three rules:
 1. Write no more of a unit test than sufficient to fail (compilation failures are failures).
 1. Write no more production code than necessary to pass the one failing unit test.
 
-
-## Testing React
+### Testing React
 
 Mention storybook
 
@@ -38,12 +42,9 @@ Show application "react-tdd-code"
 ### Start coding
 
 Steps:
-- CRA new: 
-- `npx create-react-app tdd-b --template typescript`
-- What's the first, simplest test case? > Title  // Discussion: granularity of tests
-- Before we start: it's important to always know whether you are in the green or in the red. To visualize I wrote a reporter using my Phillips Hue lamps. Add this to package.json:
-- `    "test.hue": "react-scripts test --reporters='default' --reporters='../../hue-reporter/hue-reporter.js'",`
+- What's the first, simplest test case? > Title  // Discussion: granularity of tests (testing title?)
 - Implement:
+- Show title
 - Shows empty cart
 - Products list -> ugly: products array in App
 -   Refactor: refactor component
@@ -100,3 +101,7 @@ Well...
   - having a test suite of the stuff you are woking on now is cumbersome
 - Frequent and safe refactorings
  - still needs discipline
+
+## Feedback from project
+
+How does it feel?
