@@ -22,40 +22,10 @@ Mention the three rules:
 1. Write no more of a unit test than sufficient to fail (compilation failures are failures).
 1. Write no more production code than necessary to pass the one failing unit test.
 
-### Benefit
-
-CURRENT:
-Drive design
-Frequent and safe refactorings
-Be confident that your code works
-Your brain's reward system is continuously pleased!
-
-CONSIDER:
-Clean code that works
-Stops writing what we dont need
-Short feedback cycle
-Smaller pieces
-Less debugging
-Refactor with confidence
-
--> change silde to:
-
-Your brain's reward system is continuously pleased!
-  Short feedback cycle
-  Smaller pieces
-
-Clean code that works
-  Refactor with confidence
-
-Drive design
-
-Stops writing what we dont need
-Less debugging
-
 
 ## Testing React
 
-Mention Storyboard
+Mention storybook
 
 ## Hands On
 

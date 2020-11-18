@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -22,53 +23,68 @@
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
 </head>
+
 <body>
-<div class="reveal">
-  <div class="slides">
-    <section class="deck-slide">
-      <h1>TDD <br/> <span style="font-size: 45px;">- and why you should be doing it</span></h1>
-    </section>
-    <section>
-      <div>
-        <img src="../img/nipa-emoji.jpeg" class="portrait" style="width: 20% !important">
-        <h3 class="margin-top">Nick Payne</h3>
-      </div>
-      <p>Java & JavaScript developer at Zuhlke since 2013</p>
-      <p>Moved to Singapore in January</p>
-    </section>
-    <section>
-      <section>
-        <h2>TDD</h2>
-        <p>Who uses TDD when writing backend code?</p>
+  <div class="reveal">
+    <div class="slides">
+      <section class="deck-slide">
+        <h1>TDD <br /> <span style="font-size: 45px;">- and why you should be doing it</span></h1>
       </section>
       <section>
-        <h2>TDD</h2>
-        <p>Who uses TDD when writing frontend code?</p>
+        <div>
+          <img src="../img/nipa-emoji.jpeg" class="portrait" style="width: 20% !important">
+          <h3 class="margin-top">Nick Payne</h3>
+        </div>
+        <p>Java & JavaScript developer at Zuhlke since 2013</p>
+        <p>Moved to Singapore in January</p>
       </section>
       <section>
-        <h2>What is TDD?</h2>
-        <img src="../img/tdd-cycle.png"/>
+        <div>
+          <img src="../img/cha.png" class="portrait" style="width: 20% !important">
+          <h3 class="margin-top">Christian Abegg</h3>
+        </div>
+        <p>.NET & web developer at Zuhlke since 2007</p>
+        <p>First React project started in fall 2019</p>
       </section>
       <section>
-        <h2>What's the benefit of TDD?</h2>
-        <ul>
-          <li>Drive design</li>
-          <li>Frequent and safe refactorings</li>
-          <li>Be confident that your code works</li>
-          <li>Your brain's reward system is continuously pleased!</li>
-        </ul>
-      </section>
-      <section>
-        <h2>TDD needs practice</h2>
-        <p>We want tests that <strong>encourage</strong> us to do refactorings, not <strong>prevent</strong> us from
-          doing so.</p>
-      </section>
-      <section>
-        <h2>TDD !== 100% coverage</h2>
-        <p>Coverage alone is a useless metric</p>
-      </section>
-      <section>
-<pre>
+        <section>
+          <h2>TDD</h2>
+          <p>Who uses TDD when writing backend code?</p>
+        </section>
+        <section>
+          <h2>TDD</h2>
+          <p>Who uses TDD when writing frontend code?</p>
+        </section>
+        <section>
+          <h2>What is TDD?</h2>
+          <img src="../img/tdd-cycle.png" />
+        </section>
+        <section>
+          <h2>What's the benefit of TDD?</h2>
+          <ul>
+            <li>Your brain's reward system is continuously pleased!
+              <ul>
+                <li>Short feedback cycle / Smaller pieces</li>
+              </ul>
+            </li>
+            <li>Refactor with confidence</li>
+            <li>Clean code that works</li>
+            <li>Drive design</li>
+            <li>Stops writing what we dont need</li>
+            <li>Less debugging</li>
+          </ul>
+        </section>
+        <section>
+          <h2>TDD needs practice</h2>
+          <p>We want tests that <strong>encourage</strong> us to do refactorings, not <strong>prevent</strong> us from
+            doing so.</p>
+        </section>
+        <section>
+          <h2>TDD !== 100% coverage</h2>
+          <p>Coverage alone is a useless metric</p>
+        </section>
+        <section>
+          <pre>
     <code class="hljs javascript" data-trim contenteditable data-noescape>
 it('should make sonar happy', () => {
     callThis();
@@ -77,60 +93,63 @@ it('should make sonar happy', () => {
 });
     </code>
 </pre>
+        </section>
+        <section>
+          <h2>PLS, have you heard of deadlines? <br /><br /> I have no time for TDD! <br /><br />Everything takes twice
+            as long!</h2>
+        </section>
+        <section>
+          <img src="../img/features-over-time-stagnating.png" />
+        </section>
+        <section>
+          <img src="../img/features-over-time-increasing.png" />
+        </section>
+        <section>
+          <h2>But my <br /><br />Boss / PO / Project Manager / Mom <br /> <br />says I'm not allowed to spend time
+            writing tests!</h2>
+        </section>
+        <section>
+          <p>They are not interested in tests. They are interested in features.</p>
+          <p class="fragment">Testing is a part of your job, include it in your estimations.</p>
+          <p class="fragment">Untested code is legacy code.</p>
+          <p class="fragment">Be a professional. Test your code.</p>
+        </section>
+        <section>
+          <p>If you are making an omelet and it's taking too long to cook, you have three choices:</p>
+          <ul>
+            <li>Eat a half cooked omelet.</li>
+            <li>Wait.</li>
+            <li>Don't have the omelet.</li>
+          </ul>
+        </section>
+        <section>
+          <img src="../img/the-clean-coder-cover.jpg" width="50%" />
+        </section>
       </section>
-      <section>
-        <h2>PLS, have you heard of deadlines? <br /><br /> I have no time for TDD! <br /><br />Everything takes twice as long!</h2>
-      </section>
-      <section>
-        <img src="../img/features-over-time-stagnating.png" />
-      </section>
-      <section>
-        <img src="../img/features-over-time-increasing.png" />
-      </section>
-      <section>
-        <h2>But my <br /><br />Boss / PO / Project Manager / Mom <br /> <br />says I'm not allowed to spend time writing tests!</h2>
-      </section>
-      <section>
-        <p>They are not interested in tests. They are interested in features.</p>
-        <p class="fragment">Testing is a part of your job, include it in your estimations.</p>
-        <p class="fragment">Untested code is legacy code.</p>
-        <p class="fragment">Be a professional. Test your code.</p>
-      </section>
-      <section>
-        <p>If you are making an omelet and it's taking too long to cook, you have three choices:</p>
-        <ul>
-          <li>Eat a half cooked omelet.</li>
-          <li>Wait.</li>
-          <li>Don't have the omelet.</li>
-        </ul>
-      </section>
-      <section>
-        <img src="../img/the-clean-coder-cover.jpg" width="50%"/>
-      </section>
-    </section>
+    </div>
   </div>
-</div>
 
-<script src="../lib/js/head.min.js"></script>
-<script src="../js/reveal.js"></script>
+  <script src="../lib/js/head.min.js"></script>
+  <script src="../js/reveal.js"></script>
 
-<script>
-  // More info https://github.com/hakimel/reveal.js#configuration
-  Reveal.initialize({
-    history: true,
+  <script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      history: true,
 
-    // More info https://github.com/hakimel/reveal.js#dependencies
-    dependencies: [
-      { src: '../plugin/markdown/marked.js' },
-      { src: '../plugin/markdown/markdown.js' },
-      { src: '../plugin/notes/notes.js', async: true },
-      {
-        src: '../plugin/highlight/highlight.js', async: true, callback: function () {
-          hljs.initHighlightingOnLoad();
+      // More info https://github.com/hakimel/reveal.js#dependencies
+      dependencies: [
+        { src: '../plugin/markdown/marked.js' },
+        { src: '../plugin/markdown/markdown.js' },
+        { src: '../plugin/notes/notes.js', async: true },
+        {
+          src: '../plugin/highlight/highlight.js', async: true, callback: function () {
+            hljs.initHighlightingOnLoad();
+          }
         }
-      }
-    ]
-  });
-</script>
+      ]
+    });
+  </script>
 </body>
+
 </html>
