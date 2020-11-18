@@ -63,24 +63,36 @@ Mention Storyboard
 
 Show application "react-tdd-code"
 
-Changes: show titles
-
 ### What's the first, simplest test case?
 
 ### Start coding
 
+Steps:
+- CRA new: 
+- `npx create-react-app tdd-b --template typescript`
+- What's the first, simplest test case? > Title  // Discussion: granularity of tests
+- Before we start: it's important to always know whether you are in the green or in the red. To visualize I wrote a reporter using my Phillips Hue lamps. Add this to package.json:
+- `    "test.hue": "react-scripts test --reporters='default' --reporters='../../hue-reporter/hue-reporter.js'",`
+- Implement:
+- Shows empty cart
+- Products list -> ugly: products array in App
+-   Refactor: refactor component
+-   Refactor: data > as props -> Shop component
+- Add
+
 Challenges:
-- how fine grainded?
-- when to extract components?
-- 
+- how fine grained?
+- when to extract components? -> Product
+- how to load (test) data?
+- Tomato is multiple times on the Shop after adding it to the cart -> how to test?
 
 ## Discussion
 
 ## But wait, what about Redux
 
 Redux examples:
-- connected 
-- container component
+- connected [cha]
+- container component [nipa]
 
 ## Impact on your work
 
